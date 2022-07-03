@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: "GothamBook";
+    src: local("GothamBook"), url(./assets/fonts/GothamBook.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "GothamMedium";
+    src: local("GothamMedium"), url(./assets/fonts/GothamMedium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Regogare";
+    src: local("Regogare"), url(./assets/fonts/Renogare.ttf) format("truetype");
+}
+
+

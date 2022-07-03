@@ -1,0 +1,108 @@
+/********************************************
+                Imported fonts
+**********************************************/
+@import url('http://fonts.cdnfonts.com/css/renogare');
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+
+
+/********************************************
+                Navbar
+**********************************************/
+
+.navbar ul li {
+    font-family: 'Renogare', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #1226AA;
+    position: relative;
+
+    :hover {
+        color:#EA0029;
+    }
+
+    a::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 3px;
+        top: 100%;
+        left: 0;
+        background: #EA0029;
+        transition: transform 0.5s;
+        transform: scaleX(0);
+        transform-origin: left;
+      }
+
+      a:hover::after {
+        transform: scaleX(1);
+      }
+
+
+}
+
+/********************************************
+                Section One
+**********************************************/
+.sectionOne {
+    background-image: url("../assets/imagen\ principal.png");
+    min-height:800px;
+    background-size: cover;
+    background-position:left;
+    font-family: 'Renogare', sans-serif;
+}
+
+.video-btn {
+    background-color: #EA0029;
+    font-family: 'Gotham';
+    font-weight: 400;    
+    transition-duration: 300ms;
+    transition-delay: 100ms;
+
+    // :hover {
+    //     background-color: white;
+    //     color: #EA0029
+    // }
+}
+.video-btn:hover{
+    background-color: white;
+    color: #EA0029;
+}
+// font-family:"renogare";
+
+/********************************************
+                Section Three
+**********************************************/
+.third-section {
+    background-image: url("../assets/mecánico.png");
+    min-height: 400px;
+    background-size: cover;
+    background-position:left;
+    font-family: 'Renogare', sans-serif;
+}
+
+.line {
+    background-color:#EA0029;;
+}
+
+.instruccion {
+    font-family: 'Renogare', sans-serif;
+    font-size: 28px;
+    color: #1226AA;
+}
+
+.paragraph {
+    font-family: 'Gotham', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #00205C;
+}
+
+/********************************************
+                Tablet queries
+**********************************************/
+
+
+/********************************************
+                Mobile queries
+**********************************************/
